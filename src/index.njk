@@ -1,1 +1,13 @@
-<h1>Test</h1>]
+---
+layout: zakladni
+---
+
+<h1> Nazev </h1>
+
+<h2>Ovoce</h2>
+{% set polozky = potraviny.ovoce %}
+{% include "seznam.njk" %}
+
+<h2>Zelenina</h2>
+{% set polozky = potraviny.zelenina %}
+{% include "seznam.njk" %}
